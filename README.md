@@ -28,7 +28,7 @@ Validate the HTML code.
 Publish the website in the given URL.
 
 ## PROGRAM:
-
+```
 home.html
 
 <html>
@@ -209,12 +209,12 @@ home.html
         </div>  
     </div>
     <footer>
-        <center> Designed and Developed by NITHISH R (23006406) </center>
+        <center> Designed and Developed by DAPPILI VASAVI(212223040030) </center>
     </footer>
 </body>
 </html>
-
-
+```
+```
 people.html
 
 <html>
@@ -386,12 +386,12 @@ people.html
         </div>
     </div>
     <footer>
-        <center> Designed and Developed by DAPPILI VASAVI(212223040117) </center>
+        <center> Designed and Developed by DAPPILI VASAVI(212223040030) </center>
     </footer>
 </body>
 </html>
-
-
+```
+```
 product.html
 
 <html>
@@ -613,8 +613,8 @@ product.html
     </footer>
 </body>
 </html>
-
-
+```
+```
 contact.html
 
 <html>
@@ -839,11 +839,11 @@ contact.html
         </div>
     </div>
     <footer>
-        <center> Designed and Developed by NITHISH R (23006406) </center>
+        <center> Designed and Developed by DAPPILI VASAVI(212223040030) </center>
     </footer>
 </body>
 </html>
-
+```
 
 
 ## OUTPUT:
