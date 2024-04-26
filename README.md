@@ -182,7 +182,7 @@ home.html
             </div>
         </div>
     <div class="bottomdiv">
-        <p> Copyrights @2024 and Developed by MOPURI ANKITHA(212223040117)
+       <p>Singamala venkata Sai Kumar Reddy</p>
 </body>
 <html>
 ```
@@ -327,7 +327,7 @@ product.html
         </div>
     </div>
     <div class="bottomdiv">
-        <b>Copyrights @2024 and Developed by MOPURI ANKITHA(212223040117)</b>
+        <p>Singamala venkata Sai Kumar Reddy</p>
     </div>
 </body>
 </html>
@@ -479,7 +479,7 @@ text-decoration: none;
         </table>
     </div>
     <div class="bottomdiv">
-<p>Copyrights @2024 and Developed by MOPURI ANKITHA(212223040117)</p>
+<p>Singamala venkata Sai Kumar Reddy</p>
     </div>
 </body>
 </html>
@@ -685,7 +685,7 @@ display:block;
             </table>
         </div>
         <div class="bottomdiv">
-            <p>Copyrights @2024 and Developed by MOPURI ANKITHA(212223040117)</p>
+            <p>Singamala venkata Sai Kumar Reddy</p>
         </div>
     </div>
 </body>
@@ -694,10 +694,14 @@ display:block;
 
 
 ## OUTPUT:
-![alt text](<Screenshot (303).png>)
-![alt text](<Screenshot (304).png>)
-![alt text](<Screenshot (305).png>)
-![alt text](<Screenshot (306).png>)
+![img1](https://github.com/23004205/softweb/assets/138971114/84b51ce3-1f6c-4730-ba35-c6cc326a4e5d)
+
+![img2](https://github.com/23004205/softweb/assets/138971114/e7d98437-dc61-4978-a17d-5a33e1ddfbfb)
+
+![img3](https://github.com/23004205/softweb/assets/138971114/ba51bf2b-37d5-4f10-8c53-a8621e467f69)
+
+![img4](https://github.com/23004205/softweb/assets/138971114/d652c311-23c1-4092-897b-85713fac0c0b)
+
 
 
 ## RESULT:
