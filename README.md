@@ -1,5 +1,5 @@
 # Ex.07 Software Product Company Website
-## Date:25-04-2024
+## Date:26-04-2024
 
 ## AIM:
 To develop a static company website to display the softwares and services provided by the company.
@@ -28,10 +28,9 @@ Validate the HTML code.
 Publish the website in the given URL.
 
 ## PROGRAM:
-```
+
 home.html
-```
-```
+
 <html>
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -45,12 +44,12 @@ home.html
             .banner {
                 width: 100%;
                 height: 100vh;
-                background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(wallpaper\ for\ intel\ 1.jpg);
+                background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(background.jpg);
                 background-size: cover;
                 background-position: center;
             }
             .navbar {
-                width: 90%;
+                width: 85%;
                 margin: auto;
                 padding: 35px 0;
                 display: flex;
@@ -58,22 +57,14 @@ home.html
                 justify-content: space-between;
             }
             .logo {
-                color: #6fa1f8;
-                font-size: 35px;
+                color: #fb0b0b;
+                font-size: 40px;
                 font-weight: 700;
-                margin-left: -50px;
                 letter-spacing: 3px;
-            }
-            img{
-                height:70px;
-                margin-top:-3px;
-                margin-left:5px;
-                margin-right:5px;
             }
             span {
                 color: white;
             }
-            
             form {
                 width: 300px;
                 height: 40px;
@@ -102,7 +93,7 @@ home.html
                 padding: 5px 20px;
                 color: white;
                 border-radius: 10px;
-                background: #6fa1f8;
+                background: #00d5ff;
                 cursor: pointer;
             }
             .navbar li {
@@ -120,75 +111,70 @@ home.html
                 border: 1px;
                 padding: 10px;
                 color: white;
-                background-color: #6fa1f8;
+                background-color: #00d5ff;
                 transition: 0.5s; 
                 cursor: pointer;
                 border-radius: 30px;
             }
             .content {
                 position: absolute;
-                top: 52%;
+                top: 50%;
                 left: 50%;
                 transform: translate(-50%,-50%);
                 text-align: center;
             }
             .text h2 {
-                color:#6fa1f8;
-                font-weight: 700;
+                color: white;
+                font-weight: 800;
                 font-size: 50px;
                 letter-spacing: 3px;
             }
-            .text h3 {
-                color:#6fa1f8;
-                font-weight: 700;
-                font-size: 45px;
-                letter-spacing: 3px;
-            }
             .text p {
-                color:white;
+                color: white;
                 text-transform: capitalize;
-                font-size: 24px;
+                font-size: 15px;
                 margin-bottom: 30px;
                 word-spacing: 2px;
                 letter-spacing: 1px;
             }
             .login {
-                margin: 4px -20px;
-                border: 2px solid #6fa1f8;
+                margin: 0px 10px;
+                border: 2px solid #00d5ff;
                 padding: 13px 35px;
                 letter-spacing: 1px;
                 color: white;
                 border-radius: 30px;
-                background-color: #6fa1f8;
+                background-color: #00d5ff;
                 text-decoration: none;
             }
             .login:hover {
-                border: 2px solid #6fa1f8;
-                color: #6fa1f8;
+                border: 2px solid #00d5ff;
+                color:  #00d5ff;
                 background-color: white;
                 transition: 0.5s;
                 cursor: pointer;
             } 
             .signup {
-                margin: 0px 50px;
-                border: 2px solid #6fa1f8;
+                margin: 0px 10px;
+                border: 2px solid #00d5ff;
                 padding: 13px 35px;
                 letter-spacing: 1px;
                 color: white;
                 border-radius: 30px;
-                background-color: #6fa1f8;
+                background-color: #00d5ff;
                 text-decoration: none;
             }
             .signup:hover {
-                border: 2px solid #6fa1f8;
-                color: #6fa1f8;
-                background-color:white;
+                border: 2px solid #f60b0b;
+                color: #00d5ff;
+                background-color: white;
                 transition: 0.5s;
                 cursor: pointer;
             }
             footer {
-                background-color: #6fa1f8;
+                background-color: #94f60b;
                 margin-top: auto;
+                font-size: 20px;
             }
         </style>
     </head>
@@ -196,8 +182,7 @@ home.html
     <div class="banner">
         <br>
         <div class="navbar">
-            
-            <h1 class="logo">TECHTONIC INOVATION</span></h1>
+            <h1 class="logo">C<span>ode</span>W<span>ars</span></h1>
             <ul>
                 <li><a href="http://127.0.0.1:8000/static/home.html"> Home </a></li>
                 <li><a href="http://127.0.0.1:8000/static/product.html"> Products </a></li>
@@ -209,38 +194,33 @@ home.html
                 <button type="submit"> Search </button>
             </form>
         </div>
-        
-        </div>
         <div class="content">
             <div class="text">
-                <h2 class="logo">INTEL<h2>
-                <h3 class="logo">CORE PROCESSOR</h3>
+                <h2> Achieve mastery
+                    through challenge</h2>
                 <br>
-                <p>Welcome to a new level of creating, gaming, and productivity with more power, performance, and efficiency for every computing need</p>
+                <p> Improve your development skills by training with your challenge and push your coding practice.                </p>
                 <br>
                 <div>
-                    <a href="#" class="login">LOG IN</a>
-                    <a href="#" class="signup">SIGN UP</a>
+                    <a href="#" class="login"> Log In </a>
+                    <a href="#" class="signup"> Sign Up </a>
                 </div>
-                
-                
             </div>
         </div>  
     </div>
     <footer>
-       <center>Singamala Venkata Sai Kumar Reddy </center>
+        <center> Designed and Developed by NITHISH R (23006406) </center>
     </footer>
 </body>
 </html>
-```
-```
-product.html
-```
-```
+
+
+people.html
+
 <html>
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title> Software Development Company </title>
+        <title> people page </title>
         <style type="text/css">
             * {
                 margin: 0;
@@ -250,225 +230,34 @@ product.html
             .banner {
                 width: 100%;
                 height: 100vh;
-                background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(wallpaper\ for\ intel\ 1\ copy.jpg);
+                background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(background.jpg);
                 background-size: cover;
                 background-position: center;
             }
             .navbar {
-                width: 90%;
+                width: 85%;
                 margin: auto;
                 padding: 35px 0;
                 display: flex;
                 align-items: center;
                 justify-content: space-between;
             }
-            .logo {
-                color: #6fa1f8;
-                font-size: 35px;
-                font-weight: 700;
-                margin-left: -50px;
-                letter-spacing: 3px;
-            }
-            img{
-                height:70px;
-                margin-top:-3px;
-                margin-left:5px;
-                margin-right:5px;
-            }
-            span {
-                color: white;
-            }
-            
-            form {
-                width: 300px;
-                height: 40px;
-                display: flex;
-                background: rgba(255, 255, 255, 0.2);
-                padding: 1px 1px;
-                font-size: 15px;
-                border-radius: 10px;
-                backdrop-filter: blur(4px) saturate(180%);
-            }
-            form input {
-                background: transparent;
-                flex: 1;
-                border: 0;
-                outline: none;
-                padding: 12px 20px;
-                font-size: 15px;
-                color: white;
-            } 
-            ::placeholder {
-                color: white;
-            }
-            form button {
-                border: 0;
-                outline: none;
-                padding: 5px 20px;
-                color: white;
-                border-radius: 10px;
-                background: #6fa1f8;
-                cursor: pointer;
-            }
-            .navbar li {
-                list-style: none;
-                display: inline-block;
-                margin: 0 20px;
-                position: relative;
-            }
-            .navbar li a {
-                text-decoration: none;
-                color: white;
-                text-transform: uppercase;
-            }
-            .navbar li:hover {
+            .bg-people {
                 border: 1px;
                 padding: 10px;
                 color: white;
-                background-color: #6fa1f8;
-                transition: 0.5s; 
-                cursor: pointer;
+                background-color: #00d5ff;
                 border-radius: 30px;
             }
-            .container {
-                background: transparent;
-                top: 100%;
-                padding: 120px 5%;
-                padding-bottom: 100px;
-            }
-            .container .box-container {
-                display: grid;
-                grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
-                gap: 40px;
-            }
-            .container .box-container .box {
-                color: white;
-                box-shadow: 0 5px 10px rgba(0,0,0,.2);
-                border-radius: 20px;
-                background: transparent;
-                border: 1px solid white;
-                padding: 30px 20px;
-            }
-            .container .box-container .box img {
-                height: 70px;
-                border-radius: 20px;
-            }
-            .container .box-container .box h3 {
-                color:#6fa1f8;
-                font-size: large;
-                padding: 10px 0;
-            }
-            .container .box-container .box p {
-                color: white;
-                font-size: small;
-                line-height: 2;
-            }
-            footer {
-                background-color: #6fa1f8;
-                margin-top: auto;
-            }
-        </style>
-    </head>
-<body>
-    <div class="banner">
-        <br>
-        <div class="navbar">
-            <h1 class="logo">TECHTONIC INOVATION</span></h1>
-            <ul>
-                <li><a href="http://127.0.0.1:8000/static/home.html"> Home </a></li>
-                <li><a href="http://127.0.0.1:8000/static/product.html"> Products </a></li>
-                <li><a href="http://127.0.0.1:8000/static/people.html"> People </a></li>
-                <li><a href="http://127.0.0.1:8000/static/contact.html"> Contact </a></li>
-            </ul>
-            <form action="" method="get">
-                <input type="text" placeholder="Enter to Search">
-                <button type="submit"> Search </button>
-            </form>
-        </div>
-        
-        <div class="container">
-            <div class="box-container">
-                <div class="box">
-                                        <h3>INTEL<SUP>&reg;</SUP>AI BOOST</h3>
-                    <p>Ultra processors include built-in Al acceleration to boost productivity while maintaining privacy and flexibility.</p>
-                </div>
-                <div class="box">
-                  
-                    <h3>HIGH BANDWIDTH MEMORY</h3>
-                    <p>64 gigabytes of ultra-high- bandwidth in-package memory and over 1GB of HBM capacity per core.</p>
-                </div>
-                <div class="box">
-                   
-                    <h3>IMMERSIVE GRAPHICS</h3>
-                    <p>Supercharge your gaming and content creation experience with built-in intel <sup>&reg;</sup> Arc <sup>&trade;</sup> GPUs for ISV certifications.</p>
-                </div>
-                <div class="box">
-                    
-                    <h3>LONGER BATTERY LIFE</h3>
-                    <p>An optimal balance of power and performance means you'll be able to stay productive longer while unplugged.</p>
-                </div>
-                <div class="box">
-                   
-                    <h3>CONNECTIVITY</h3>
-                    <p>Cellular modem, Ethernet, Controllers, Silicon Photonics, fabric, WiFi, and Bluetooth connectivity for intel <sup>&reg;</sup> 5g Modem.</p>
-                </div>
-            </div>
-        </div>
-    </div>
-    <footer>
-        <center>Singamala Venkata Sai Kumar Reddy </center>
-    </footer>
-</body>
-</html>
-```
-```
-people.html
-```
-
-```
-<html>
-    <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Software Development Company</title>
-        <style type="text/css">
-            * {
-                margin: 0;
-                padding: 0;
-                font-family: Arial, Helvetica, sans-serif;
-            }
-            .banner {
-                width: 100%;
-                height: 100vh;
-                background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(wallpaper\ for\ intel\ 1.jpg);
-                background-size: cover;
-                background-position: center;
-            }
-            .navbar {
-                width: 90%;
-                margin: auto;
-                padding: 35px 0;
-                display: flex;
-                align-items: center;
-                justify-content: space-between;
-            }
-            
             .logo {
-                color: #6fa1f8;
-                font-size: 35px;
+                color: #fb0b0b;
+                font-size: 40px;
                 font-weight: 700;
-                margin-left: -50px;
                 letter-spacing: 3px;
-            }
-            img{
-                height:50px;
-                margin-top:-3px;
-                margin-left:-5px;
-                margin-right:5px;
             }
             span {
                 color: white;
             }
-            
             form {
                 width: 300px;
                 height: 40px;
@@ -497,7 +286,7 @@ people.html
                 padding: 5px 20px;
                 color: white;
                 border-radius: 10px;
-                background: #6fa1f8;
+                background: #00d5ff;
                 cursor: pointer;
             }
             .navbar li {
@@ -515,7 +304,7 @@ people.html
                 border: 1px;
                 padding: 10px;
                 color: white;
-                background-color: #6fa1f8;
+                background-color: #00d5ff;
                 transition: 0.5s; 
                 cursor: pointer;
                 border-radius: 30px;
@@ -545,8 +334,9 @@ people.html
                 color: #00d5ff;
             }
             footer {
-                background-color: #6fa1f8;
+                background-color:#94f60b;
                 margin-top: auto;
+                font-size: 20px;
             }
         </style>
     </head>
@@ -554,7 +344,7 @@ people.html
     <div class="banner">
         <br>
         <div class="navbar">
-            <h1 class="logo">TECHTONIC INOVATION</span></h1>
+            <h1 class="logo">C<span>ode</span>W<span>ars</span></h1>
             <ul>
                 <li><a href="http://127.0.0.1:8000/static/home.html"> Home </a></li>
                 <li><a href="http://127.0.0.1:8000/static/product.html"> Products </a></li>
@@ -569,46 +359,45 @@ people.html
         <div class="image">
             <table cellspacing="20"> 
                 <tr align="center">
-                    <td> <img src="nandu.jpg"> </td>
-                    <td> <img src="akhil.jpg"> </td>
-                    <td> <img src="vicky.jpg"> </td>
-                    <td> <img src="vasavi.jpg"> </td>
-                    <td> <img src="ankitha.jpg"> </td>
-                    <td> <img src="ramya.jpg"> </td>
-                    
+                    <td> <img src="vasu.jpg"> </td>
+                    <td> <img src="gill.jpeg"> </td>
+                    <td> <img src="bill gates.jpeg"> </td>
+                    <td> <img src="sundar.jpeg"> </td>
+                    <td> <img src="ratantata.jpg"> </td>
+                    <td> <img src="nick.jpeg"> </td>
+                </tr>
                 <tr align="center">
-                    <th> NANDITHA</th>
-                    <th> AKHIL</th>
-                    <th> VICKY</th>
                     <th> VASAVI</th>
-                    <th> ANKITHA</th>
-                    <th> RAMYA</th>
+                    <th> SHUBMAN GILL</th>
+                    <th> BILL GATES</th>
+                    <th> SUNDAR PICHAI </th>
+                    <th> RATAN TATA</th>
+                    <th> NICK VUJICIC</th>
                 </tr>
                 <tr align="center">
                     <td> CEO </td>
-                    <td> CEO CO-FOUNDER </td>
-                    <td> CTO CO-FOUNDER </td>
-                    <td> DIRECTOR </td>
-                    <td> Ass.DIRECTOR </td>
-                    <td> Dy.DIRECTOR </td>
+                    <td> C++, Co-Founder </td>
+                    <td> PYTHON, Co-Founder </td>
+                    <td> Sql,Co-Founder </td>
+                    <td> JAVA,Co-Founder </td>
+                    <td>  php,Co-Founder </td>
                 </tr>
             </table>
         </div>
     </div>
     <footer>
-        <center>Singamala Venkata Sai Kumar Reddy </center>
+        <center> Designed and Developed by DAPPILI VASAVI(212223040117) </center>
     </footer>
 </body>
 </html>
-```
-```
-contact.html
-```
-```
+
+
+product.html
+
 <html>
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title> Software Development Company </title>
+        <title> Product Page </title>
         <style type="text/css">
             * {
                 margin: 0;
@@ -618,35 +407,34 @@ contact.html
             .banner {
                 width: 100%;
                 height: 100vh;
-                background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(wallpaper\ for\ intel\ 1.jpg);
+                background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(background.jpg);
                 background-size: cover;
                 background-position: center;
             }
             .navbar {
-                width: 90%;
+                width: 85%;
                 margin: auto;
                 padding: 35px 0;
                 display: flex;
                 align-items: center;
                 justify-content: space-between;
             }
-            .logo {
-                color: #6fa1f8;
-                font-size: 35px;
-                font-weight: 700;
-                margin-left: -50px;
-                letter-spacing: 3px;
+            .bg-product {
+                border: 1px;
+                padding: 10px;
+                color: white;
+                background-color:  #00d5ff;
+                border-radius: 30px;
             }
-            img{
-                height:70px;
-                margin-top:-3px;
-                margin-left:5px;
-                margin-right:5px;
+            .logo {
+                color:  #fb0b0b;
+                font-size: 40px;
+                font-weight: 700;
+                letter-spacing: 3px;
             }
             span {
                 color: white;
             }
-            
             form {
                 width: 300px;
                 height: 40px;
@@ -675,7 +463,7 @@ contact.html
                 padding: 5px 20px;
                 color: white;
                 border-radius: 10px;
-                background: #6fa1f8;
+                background:  #00d5ff;
                 cursor: pointer;
             }
             .navbar li {
@@ -693,41 +481,262 @@ contact.html
                 border: 1px;
                 padding: 10px;
                 color: white;
-                background-color: #6fa1f8;
+                background-color:  #00d5ff;
+                transition: 0.5s; 
+                cursor: pointer;
+                border-radius: 30px;
+            }
+            .container {
+                background: transparent;
+                padding: 10px 5%;
+                padding-bottom: 100px;
+            }
+            .container .box-container {
+                display: grid;
+                grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+                gap: 100px;
+            }
+            .container .box-container .box {
+                color: white;
+                box-shadow: 0 5px 10px rgba(0,0,0,.2);
+                border-radius: 20px;
+                background: transparent;
+                border: 1px solid white;
+                padding: 30px 20px;
+            }
+            .container .box-container .box img {
+                height: 70px;
+                border-radius: 20px;
+            }
+            .container .box-container .box h3 {
+                color:  #00d5ff;
+                font-size: large;
+                padding: 20px 0;
+            }
+            .container .box-container .box p {
+                color: white;
+                font-size: small;
+                line-height: 1.5;
+            }
+            footer {
+                background-color: #94f60b;
+                margin-top: auto;
+                font-size: 20px;
+            }
+        </style>
+    </head>
+<body>
+    <div class="banner">
+        <br>
+        <div class="navbar">
+            <h1 class="logo">C<span>ode</span>W<span>ars</span></h1>
+            <ul>
+                <li><a href="http://127.0.0.1:8000/static/home.html"> Home </a></li>
+                <li><a href="http://127.0.0.1:8000/static/product.html" class="bg-product"> Products </a></li>
+                <li><a href="http://127.0.0.1:8000/static/people.html"> People </a></li>
+                <li><a href="http://127.0.0.1:8000/static/contact.html"> Contact </a></li>
+            </ul>
+            <form action="" method="get">
+                <input type="text" placeholder="Enter to Search">
+                <button type="submit"> Search </button>
+            </form>
+        </div>
+        <div class="container">
+            <div class="box-container">
+                <div class="box">
+                    <img src="c.jpeg" alt="">
+                    <h3> C </h3>
+                    <p> C is a general-purpose programming language created by Dennis Ritchie at the Bell Laboratories in 1972. </p>
+                </div>
+                <div class="box">
+                    <img src="c++.png" alt="">
+                    <h3> C++ </h3>
+                    <p>  C++ is a cross-platform language that can be used to create high-performance applications.</p>
+                </div>
+                <div class="box">
+                    <img src="javascript.png" alt="">
+                    <h3> JAVASCRIPT </h3>
+                    <p> JavaScript is a lightweight, cross-platform, single-threaded, and interpreted compiled programming language. I </p>
+                </div>
+                <div class="box">
+                    <img src="php.jpeg" alt="">
+                    <h3> PHP</h3>
+                    <p> PHP is a server side scripting language that is embedded in HTML. </p>
+                </div>
+                <div class="box">
+                    <img src="python.jpeg" alt="">
+                    <h3> PYTHON </h3>
+                    <p> Python is a popular programming language. It was created by Guido van Rossum, and released in 1991. </p>
+                </div>
+                <div class="box">
+                    <img src="sql.jpeg" alt="">
+                    <h3> SQL </h3>
+                    <p> SQL is a standard language for accessing and manipulating databases. </p>
+                </div>
+                <div class="box">
+                    <img src="shell.png" alt="">
+                    <h3> SHELL </h3>
+                    <p> Shell can be accessed by users using a command line interface.  </p>
+                </div>
+                <!-- <div class="box">
+                    <img src="c ash.jpg" alt="">
+                    <h3> C# </h3>
+                    <p> C# is used to develop web apps, desktop apps, mobile apps, games and much more.
+
+                    </p>
+                </div>
+                <div class="box">
+                    <img src="typescript.png" alt="">
+                    <h3>TYPESCRIPT</h3>
+                    <p> ypeScript is a syntactic superset of JavaScript which adds static typing. </p>
+                </div>
+                <div class="box">
+                    <img src="f.png" alt="">
+                    <h3> F# </h3>
+                    <p> F# is an Open-source programming language with a lot of features.</p>
+                </div>
+                <div class="box">
+                    <img src="swift.png" alt="">
+                    <h3> SWIFT</h3>
+                    <p> Swift, developed by Apple, is the go-to language for iOS and macOS app development.  </p>
+                </div>
+                <div class="box">
+                    <img src="go.jpg" alt="">
+                    <h3> GO </h3>
+                    <p> Go, also known as Golang, has gained attention for its efficiency, simplicity, and strong support for concurrent programming </p>
+                </div> -->
+            </div>
+        </div>
+    </div>
+    <footer>
+        <center> Designed and Developed by DAPPILI VASAVI (212223040030) </center>
+    </footer>
+</body>
+</html>
+
+
+contact.html
+
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Contact Us Page </title>
+        <style type="text/css">
+            * {
+                margin: 0;
+                padding: 0;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            .banner {
+                width: 100%;
+                height: 100vh;
+                background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(background.jpg);
+                background-size: cover;
+                background-position: center;
+            }
+            .navbar {
+                width: 85%;
+                margin: auto;
+                padding: 35px 0;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+            }
+            .bg-contact {
+                border: 1px;
+                padding: 10px;
+                color: white;
+                background-color: #00d5ff;
+                border-radius: 30px;
+            }
+            .logo {
+                color:#fb0b0b;
+                font-size: 40px;
+                font-weight: 700;
+                letter-spacing: 3px;
+            }
+            span {
+                color: white;
+            }
+            .navbar form {
+                width: 300px;
+                height: 40px;
+                display: flex;
+                background: rgba(255, 255, 255, 0.2);
+                padding: 1px 1px;
+                font-size: 15px;
+                border-radius: 10px;
+                backdrop-filter: blur(4px) saturate(180%);
+            }
+            .navbar form input {
+                background: transparent;
+                flex: 1;
+                border: 0;
+                outline: none;
+                padding: 12px 20px;
+                font-size: 15px;
+                color: white;
+            } 
+            ::placeholder {
+                color: white;
+            }
+            .navbar form button {
+                border: 0;
+                outline: none;
+                padding: 5px 20px;
+                color: white;
+                border-radius: 10px;
+                background: #00d5ff;
+                cursor: pointer;
+            }
+            .navbar li {
+                list-style: none;
+                display: inline-block;
+                margin: 0 20px;
+                position: relative;
+            }
+            .navbar li a {
+                text-decoration: none;
+                color: white;
+                text-transform: uppercase;
+            }
+            .navbar li:hover {
+                border: 1px;
+                padding: 10px;
+                color: white;
+                background-color: #00d5ff;
                 transition: 0.5s; 
                 cursor: pointer;
                 border-radius: 30px;
             }
             .box {
                 display: flex;
-                column-gap: 20px;
-                background: transparent;
-                position: relative;
-                top: 80px;
-            }
-            .box-1 {
-                height: 330px;
-                width: 430px;
-                border: 3px solid white;
-                border-radius: 50px;
+                column-gap: 40px;
                 background: transparent;
                 position: relative;
                 top: 50px;
+            }
+            .box-1 {
+                height: 400px;
+                width: 400px;
+                border: 3px solid white;
+                border-radius: 20px;
+                background: transparent;
+                position: relative;
                 left: 250px;
             }
             .box-2 {
-                height: 330px;
-                top: 50px;
-                width: 430px;
-                border: 3px solid white;
-                border-radius: 50px;
+                height: 400px;
+                width: 400px;
+                border: 3px solid #00d5ff;
+                border-radius: 20px;
                 background: transparent;
                 position: relative;
                 left: 300px;
             }
             .box-1 form {
                 display: flex;
-                color:white;
+                color: white;
                 background: transparent;
                 padding: 10px;
                 font-size: 15px;
@@ -739,7 +748,7 @@ contact.html
                 display: flex;
                 border: 1px solid white;
                 border-radius: 10px;
-                padding: 15px 20px;
+                padding: 15px 30px;
                 font-size: 15px;
                 color: white;
                 position: relative;
@@ -747,33 +756,24 @@ contact.html
             }
             .box-1 form textarea {
                 background: transparent;
-                display: flex;
                 color: white;
-                padding: 5px 10px;
+                padding: 15px 10px;
                 position: relative;
                 top: 30px;
-                left: 41px;
+                left: 30px;
                 border: 1px solid white;
                 border-radius: 10px;
             }
             .box-1 form button {
                 border: 0;
                 outline: none;
-                padding: 5px 30px;
-                left: 30px;
+                padding: 10px 20px;
                 color: white;
-                border-radius: 50px;
-                background: #6fa1f8;
+                border-radius: 30px;
+                background: #00d5ff;
                 cursor: pointer;
                 position: relative;
-                top: 30px;
-            }
-            box-2 h2 {
-                color: white;
-                position: relative;
-                top: 25px;
-                left: 50px;
-                font-size: 30px;
+                top: 50px;
             }
             .box-2 h2 {
                 color: white;
@@ -789,12 +789,13 @@ contact.html
                 padding: 10px 80px;
             }
             .box-2 span {
-                color: #6fa1f8;
+                color: #00d5ff;
                 font-size: 20px;
             }
             footer {
-                background-color: #6fa1f8;
+                background-color: #94f60b;
                 margin-top: auto;
+                font-size: 20px;
             }
         </style>
     </head>
@@ -802,12 +803,12 @@ contact.html
     <div class="banner">
         <br>
         <div class="navbar">
-            <h1 class="logo">TECHTONIC INOVATION</span></h1>
+            <h1 class="logo">C<span>ode</span>W<span>ars</span></h1>
             <ul>
                 <li><a href="http://127.0.0.1:8000/static/home.html"> Home </a></li>
                 <li><a href="http://127.0.0.1:8000/static/product.html"> Products </a></li>
                 <li><a href="http://127.0.0.1:8000/static/people.html"> People </a></li>
-                <li><a href="http://127.0.0.1:8000/static/contact.html"> Contact </a></li>
+                <li><a href="http://127.0.0.1:8000/static/contact.html" class="bg-contact"> Contact </a></li>
             </ul>
             <form action="" method="get">
                 <input type="text" placeholder="Enter to Search">
@@ -821,38 +822,35 @@ contact.html
                         <h1> Contact Us </h1>
                         <input type="text" placeholder="Your Name">
                         <br>
-       
                         <input type="email" placeholder="Your Email">
                         <br>
-                        <textarea rows="2" cols="40" placeholder="Your Message"> </textarea>
+                        <textarea rows="4" cols="40" placeholder="Your Message"> </textarea>
                         <br>
                         <button type="submit"> Submit </button>
                     </center>
                 </form>
             </div>
-        <div class="box-2"> 
-            <h2> Contact Information </h2>
-            <p> <span>Address</span> : Tidel park No.4, Rajiv Gandhi Salai, Taramani, Chennai</p>
-            <p> <span>Email</span> : sai460@gmail.com</p>
-            <p> <span>Phone</span> : 9876543210</p>
-            <p> <span>SubCategory</span> : Subsidiary of Foreign company</p>
+            <div class="box-2"> 
+                <h2> Contact Information </h2>
+                <p> <span>Address</span> : 1185/M Ashok Nagar,Near Temple,Chennai  </p>
+                <p> <span>Email</span> : VK1713@gmail.com </p>
+                <p> <span>Phone</span> : 2018043759 </p>
+            </div>
         </div>
     </div>
-</div>
-<footer>
-    <center>Singamala Venkata Sai Kumar Reddy </center>
-</footer>
+    <footer>
+        <center> Designed and Developed by NITHISH R (23006406) </center>
+    </footer>
 </body>
-```
+</html>
+
+
 
 ## OUTPUT:
-![alt text](<Screenshot (46).png>)
-
-![alt text](<Screenshot (47).png>)
-
-![alt text](<Screenshot (48).png>)
-
-![alt text](<Screenshot (49).png>)
+![alt text](<Screenshot (51).png>)
+![alt text](<Screenshot (53).png>)
+![alt text](<Screenshot (54).png>)
+![alt text](<Screenshot (55).png>)
 
 
 ## RESULT:
